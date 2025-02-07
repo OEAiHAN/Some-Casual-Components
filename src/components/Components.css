@@ -1,0 +1,128 @@
+/* TaskBlock */
+.task-list {
+
+    list-style: none;
+}
+
+/* BackgroundImageChanger */
+.background-box {
+
+    min-height: 81vh;
+    height: auto;
+    margin: auto auto;
+    padding: 5%;
+
+    background-color: #081544;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* UsualForm */
+form.usual-form {
+
+    max-width: 500px;
+    padding: 20px;
+    
+    flex-direction: column;
+}
+
+form.usual-form,
+input[type="text"].usual-form,
+input[type="email"].usual-form,
+select.usual-form,
+.usual-form.form-item-header {
+
+    display: flex;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.usual-form label {
+
+    width: auto;
+    margin-bottom: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.usual-form.form-item-header {
+
+    max-width: 20%;
+    margin-right: 10px;
+    padding: 7px;
+
+    flex: 1;
+
+    font-weight: bold;
+}
+
+input[type="text"].usual-form,
+input[type="email"].usual-form,
+select.usual-form {
+
+    padding: 8px;
+    
+    flex: 3;
+    
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"].usual-form,
+input[type="checkbox"].usual-form {
+    
+    margin-right: 5px;
+}
+
+.usual-form.radio-box,
+.usual-form.radio-list,
+.usual-form.checkbox-box,
+.usual-form.checkbox-list {
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.usual-form.radio-list,
+.usual-form.checkbox-list {
+
+    max-width: 70%;
+
+    flex-wrap: wrap;
+}
+
+.usual-form.radio-list label,
+.usual-form.checkbox-list label {
+
+    margin-right: 5px;
+    margin-bottom: 0;
+    
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+
+.usual-form.submit-btn {
+
+    padding: 10px 20px;
+    margin-top: 20px;
+
+    align-self: center;
+    
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    cursor: pointer;
+}
+
+.usual-form .submit-btn:hover {
+    
+    background-color: #0056b3;
+}

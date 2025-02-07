@@ -1,0 +1,16 @@
+.content-container {
+
+    width: 60%;
+    margin: 0 auto;
+    padding: 2%;
+
+    border-radius: 10px;
+
+    background-color: white;
+    opacity: 75%;
+}
+
+.content-container>* {
+
+    margin-bottom: 20px;
+}
