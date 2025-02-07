@@ -72,4 +72,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # Some-Casual-Components
 Some react components coded casually
->>>>>>> 64296d6d62a9dd4f9ad73b2c4e9571845f9f9b0e
