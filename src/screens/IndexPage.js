@@ -1,11 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 
-import './screens.css'
+import './Screens.css'
 
 import TaskBlock from '../components/TaskBlock'
 import { BackgroundBox, BackgroundImageChanger } from '../components/BackgroundImageChanger'
 import UsualForm from '../components/UsualForm'
+import SideBlock from "../components/SideBlock"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
@@ -37,12 +38,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                         }
                     },
                     { type: 'select', name: 'city', items: ['a', 'b', 'c', 'd'] },
-                    { type: 'color', name: 'namecolor' }
+                    { type: 'color', name: 'namecolor' },
+                    { type: 'file', name: 'avator' }
                 ]}
                 handleSubmit={(formData) => {
 
                     console.log(JSON.stringify(formData))
                 }} />
+            <SideBlock>
+                <embed className="inner-site" src="http://localhost:3000/" />
+            </SideBlock>
         </div>
     </BackgroundBox>
 )

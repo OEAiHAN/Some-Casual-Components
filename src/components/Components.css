@@ -1,3 +1,22 @@
+/* usual */
+.left-triangle {
+
+    height: 0;
+    width: 0;
+    border-right: solid 10px gray;
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+}
+
+.right-triangle {
+
+    height: 0;
+    width: 0;
+    border-left: solid 10px gray;
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+}
+
 /* TaskBlock */
 .task-list {
 
@@ -125,4 +144,44 @@ input[type="checkbox"].usual-form {
 .usual-form .submit-btn:hover {
     
     background-color: #0056b3;
+}
+
+/* SideBlock */
+.side-block.outline {
+
+    height: 60vh;
+    width: 500px;
+
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+
+    opacity: 100;
+    transition: right 0.5s ease-in-out;
+}
+
+.side-block.show-button {
+
+    width: 40px;
+    height: 100px;
+
+    background-color: white;
+    border: solid 2px #ccc;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.side-block.main-content-container {
+
+    height: 96%;
+    padding: 4% 5%;
+
+    flex: 1;
+
+    background-color: lightgreen;
+    border: solid 1px #ccc;
+    border-radius: 10px;
 }
